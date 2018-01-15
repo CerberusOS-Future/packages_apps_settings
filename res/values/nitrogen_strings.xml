@@ -151,4 +151,7 @@
     <string name="app_ops_start_foreground">start foreground</string>
     <string name="app_ops_bluetooth_scan">bluetooth scan</string>
     <string name="app_ops_boot_completed">auto start</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 </resources>

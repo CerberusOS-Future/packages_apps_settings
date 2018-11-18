@@ -43,7 +43,8 @@ public class NavigationBarPreferenceController extends AbstractPreferenceControl
 
     @Override
     public boolean isAvailable() {
-        return mDeviceHardwareKeys != 0;
+        //return mDeviceHardwareKeys != 0;
+        return true;
     }
 
     @Override

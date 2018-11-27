@@ -43,6 +43,8 @@ public class AppOpsSummary extends InstrumentedPreferenceFragment {
     private View mRootView;
     private ViewPager mViewPager;
 
+    private CharSequence mParentTitle;
+
     CharSequence[] mPageNames;
     static AppOpsState.OpsTemplate[] sPageTemplates = new AppOpsState.OpsTemplate[] {
         AppOpsState.LOCATION_TEMPLATE,
@@ -126,6 +128,8 @@ public class AppOpsSummary extends InstrumentedPreferenceFragment {
                 : getContext().getColor(R.color.switch_accent_color);
         tabs.setTabIndicatorColor(colorAccent);
 
+
+        mParentTitle = getActivity().getTitle();
         getActivity().setTitle(R.string.app_ops_settings);
 
         // We have to do this now because PreferenceFrameLayout looks at it
@@ -140,7 +144,7 @@ public class AppOpsSummary extends InstrumentedPreferenceFragment {
     @Override
     public void onDestroy() {
         super.onDestroy();
-        getActivity().setTitle(R.string.misc_title);
+        getActivity().setTitle(mParentTitle);
     }
 
 }

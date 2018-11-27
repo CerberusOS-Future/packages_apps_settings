@@ -210,8 +210,8 @@ public class AppOpsState {
             );
 
     public static final OpsTemplate RUN_IN_BACKGROUND_TEMPLATE = new OpsTemplate(
-            new int[] { AppOpsManager.OP_RUN_IN_BACKGROUND },
-            new boolean[] { false }
+            new int[] { AppOpsManager.OP_RUN_IN_BACKGROUND, AppOpsManager.OP_RUN_ANY_IN_BACKGROUND },
+            new boolean[] { false, false }
             );
 
     public static final OpsTemplate BOOTUP_TEMPLATE = new OpsTemplate(

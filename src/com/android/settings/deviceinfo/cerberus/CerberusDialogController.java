@@ -9,7 +9,7 @@ public class CerberusDialogController {
 
     private static final String CERBERUS_VERSION_PROP = "ro.cerberus.version";
     private static final String CERBERUS_BUILD_DATE_PROP = "ro.cerberus.build_date";
-    private static final String CERBERUS_BUILD_TYPE_PROP = "ro.cerberus.build_type";
+    private static final String CERBERUS_BUILD_TYPE_PROP = "ro.cerberus.buildtype";
     private static final String CERBERUS_DEVICE_PROP = "ro.product.model";
     private static final String CERBERUS_MAINTAINER_PROP = "ro.cerberus.maintainer";
 

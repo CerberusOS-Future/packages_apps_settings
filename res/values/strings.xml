@@ -10093,4 +10093,8 @@
     <string name="cerberus_build_type">Build Type</string>
     <string name="cerberus_device">Device</string>
     <string name="cerberus_maintainer">Maintainer</string>
+	
+	<!--- Cerberus Den App  -->
+    <string name="cerberusosden_title">Cerberus's den</string>
+    <string name="cerberusosden_summary">ROM customization</string>
 </resources>

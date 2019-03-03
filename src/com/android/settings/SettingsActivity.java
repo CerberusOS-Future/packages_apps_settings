@@ -53,7 +53,7 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toolbar;
-
+import com.cerberusos.gear.util.CerberusOSUtils;
 import com.android.internal.util.ArrayUtils;
 import com.android.settings.Settings.WifiSettingsActivity;
 import com.android.settings.applications.manageapplications.ManageApplications;
@@ -710,6 +710,11 @@ public class SettingsActivity extends SettingsDrawerActivity
         somethingChanged = setTileEnabled(changedList, new ComponentName(packageName,
                         Settings.WifiDisplaySettingsActivity.class.getName()),
                 WifiDisplaySettings.isAvailable(this), isAdmin)
+                || somethingChanged;
+
+        boolean cerberusosDenSupported = CerberusOSUtils.isPackageEnabled("com.cerberusos.den", pm);
+        somethingChanged = setTileEnabled(changedList, new ComponentName(packageName,
+                Settings.StartDenActivity.class.getName()), cerberusosDenSupported, isAdmin)
                 || somethingChanged;
 
         // Enable/disable the Me Card page.

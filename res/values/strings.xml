@@ -10086,15 +10086,4 @@
     <!-- Title for Connected device shortcut [CHAR LIMIT=30] -->
     <string name="devices_title">Devices</string>
 
-    <!-- Cerberus OS dialog -->
-    <string name="cerberus_title">CerberusOS</string>
-    <string name="cerberus_version">CerberusOS Version</string>
-    <string name="cerberus_build_date">Build Date</string>
-    <string name="cerberus_build_type">Build Type</string>
-    <string name="cerberus_device">Device</string>
-    <string name="cerberus_maintainer">Maintainer</string>
-	
-	<!--- Cerberus Den App  -->
-    <string name="cerberusosden_title">Cerberus's den</string>
-    <string name="cerberusosden_summary">ROM customization</string>
 </resources>

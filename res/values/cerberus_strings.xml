@@ -15,8 +15,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- gzosp version -->
-    <string name="rom_version_title">GZOSP version</string>
+    <!-- cerberus version -->
+    <string name="rom_version_title">CerberusOS version</string>
 
     <!-- MSIM Manual provisioning -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
@@ -98,5 +98,18 @@
     <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
+	
+	
+    <!-- Cerberus OS dialog -->
+    <string name="cerberus_title">CerberusOS</string>
+    <string name="cerberus_version">CerberusOS Version</string>
+    <string name="cerberus_build_date">Build Date</string>
+    <string name="cerberus_build_type">Build Type</string>
+    <string name="cerberus_device">Device</string>
+    <string name="cerberus_maintainer">Maintainer</string>
+	
+    <!--- Cerberus Den App  -->
+    <string name="cerberusosden_title">Cerberus\' den</string>
+    <string name="cerberusosden_summary">ROM customization</string>
 
 </resources>

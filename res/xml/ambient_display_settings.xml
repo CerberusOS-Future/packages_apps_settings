@@ -32,6 +32,18 @@
             android:summary="@string/doze_always_on_summary"
             settings:controller="com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController" />
 
+        <com.cerberusos.gear.preference.SecureSettingSwitchPreference
+            android:key="doze_charger_on"
+            android:title="@string/doze_charger_on_title"
+            android:summary="@string/doze_charger_on_summary"
+            android:defaultValue="false" />
+
+        <com.cerberusos.gear.preference.SecureSettingSwitchPreference
+            android:key="doze_keep_notification"
+            android:title="@string/doze_keep_notification_title"
+            android:summary="@string/doze_keep_notification_summary"
+            android:defaultValue="false" />
+
         <Preference
             android:key="ambient_display_double_tap"
             android:title="@string/ambient_display_title"

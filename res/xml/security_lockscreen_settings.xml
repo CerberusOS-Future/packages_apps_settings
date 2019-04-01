@@ -40,14 +40,8 @@
         android:summary="@string/lockdown_settings_summary"
         settings:controller="com.android.settings.security.LockdownButtonPreferenceController"/>
 
-    <com.android.settings.gzosp.SecureSettingSwitchPreference
-        android:key="face_auto_unlock"
-        android:title="@string/face_auto_unlock_title"
-        android:summary="@string/face_auto_unlock_summary"
-        android:defaultValue="false" />
-
-   <!-- Work profile settings are at the bottom with high order value to avoid users thinking that
-         any of the above settings (including dynamic) are specific to the work profile. -->
+    <!-- Work profile settings are at the bottom with high order value to avoid users thinking that 
+    any of the above settings (including dynamic) are specific to the work profile. -->
     <PreferenceCategory
         android:key="security_setting_lock_screen_notif_work_header"
         android:title="@string/profile_section_header"

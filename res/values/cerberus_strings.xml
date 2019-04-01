@@ -37,10 +37,6 @@
     <string name="sub_deactivate_failed">Deactivation failed.</string>
     <string name="available_sims_title">Available SIM cards</string>
 
-    <!-- Facelock toggle -->
-    <string name="face_auto_unlock_title">Face auto unlock</string>
-    <string name="face_auto_unlock_summary">Dismiss lockscreen after face unlocking</string>
-
     <!-- Battery styles -->
     <string name="battery_image">Battery image</string>
     <string name="battery_image_description">Show battery image in status bar</string>

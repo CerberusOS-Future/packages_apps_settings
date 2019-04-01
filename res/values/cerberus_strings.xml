@@ -45,15 +45,6 @@
     <string name="face_auto_unlock_title">Face auto unlock</string>
     <string name="face_auto_unlock_summary">Dismiss lockscreen after face unlocking</string>
 
-    <string name="gesture_settings_title">Custom Gestures</string>
-    <string name="gesture_settings_info">Navigation bar must be disabled!\n\nAvailable gestures:\n\nBack\n- Swipe up on left or right side\n\nHome\n- Swipe up center\n\nRecent apps\n- Swipe up center and hold\n\nLong press home\n- Short swipe up and hold in the center</string>
-    <string name="use_bottom_gesture_title">Navigation gestures</string>
-    <string name="use_bottom_gesture_summary">Use bottom swipe up gestures for navigation</string>
-
-    <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe three fingers to take screenshot</string>
-
     <!-- Battery styles -->
     <string name="battery_image">Battery image</string>
     <string name="battery_image_description">Show battery image in status bar</string>
@@ -62,8 +53,7 @@
     <string name="selinux_status">SELinux status</string>
     <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
-	
+    <string name="selinux_status_enforcing">Enforcing</string>	
 	
     <!-- Cerberus OS dialog -->
     <string name="cerberus_title">CerberusOS</string>

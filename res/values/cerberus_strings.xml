@@ -121,5 +121,9 @@
 
     <!-- Generic stuff used everywhere -->
     <string name="reset">Reset</string>
+	
+    <!-- Updater -->
+    <string name="cerberus_updater_title">System Updater</string>
+    <string name="cerberus_updater_summary">Cerberus System Updater</string>
 
 </resources>

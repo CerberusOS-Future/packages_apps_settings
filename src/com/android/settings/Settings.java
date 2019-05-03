@@ -178,4 +178,8 @@ public class Settings extends SettingsActivity {
 
     // Cerberus Den Activity
     public static class StartDenActivity extends SettingsActivity {}
+
+    // LiveDisplay
+    public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
+
 }

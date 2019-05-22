@@ -7,7 +7,7 @@ import com.android.settings.R;
 
 public class CerberusDialogController {
 
-    private static final String CERBERUS_VERSION_PROP = "ro.cerberus.version";
+    private static final String CERBERUS_VERSION_PROP = "ro.cerberusmodversion";
     private static final String CERBERUS_BUILD_DATE_PROP = "ro.cerberus.build_date";
     private static final String CERBERUS_BUILD_TYPE_PROP = "ro.cerberus.buildtype";
     private static final String CERBERUS_DEVICE_PROP = "ro.product.model";
